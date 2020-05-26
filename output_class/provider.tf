@@ -5,7 +5,7 @@ provider "aws"{
 
 // Creates key
 resource "aws_key_pair" "us-east-1-key-output" {
-  key_name   = "yana_bastion_output"
+  key_name   = "vlad_bastion_output"
   public_key = "${file("~/.ssh/id_rsa.pub")}"
 }
 
